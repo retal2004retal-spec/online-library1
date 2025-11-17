@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مكتبة سراب</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+    }
+    nav {
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav li {
+      flex: 1;
+      text-align: center;
+      border-left: 1px solid #bbb;
+    }
+
+    nav li:last-child {
+      border-left: none;
+    }
+
+    nav a {
+      display: block;
+      padding: 15px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    section {
+      padding: 80px 20px 40px;
+      min-height: 400px;
+    }
+
+    .section-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .text-box, .image-box {
+      width: 48%;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    h1, h2 {
+      color: #4b0082;
+      text-align: center;
+    }
+
+    #about { background-color: #e0d4ff; }
+    #books { background-color: #d3c1ff; }
+    #team { background-color: #c1aaff; }
+    #plan { background-color: #b38eff; }
+    #contact { background-color: #a57aff; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#contact">اتصل بنا</a></li>
+      <li><a href="#plan">الخطة</a></li>
+      <li><a href="#team">فريق العمل</a></li>
+      <li><a href="#books">الكتب</a></li>
+      <li><a href="#about">حول</a></li>
+      <li><a href="#">الرئيسية</a></li>
+      <li><a href="#" style="background-color:#4b0082;">تسجيل الدخول</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1>مكتبة سراب</h1>
+  </section>
+
+  <section id="about">
+    <h2>حول المكتبة وأهدافها</h2>
+    <div class="section-content">
+      <div class="text-box">
+        <p>
+          مكتبة سراب تهدف إلى توفير مصادر المعرفة والثقافة لجميع فئات المجتمع، وتدعم المؤلفين المحليين وتشجع القراءة بين الشباب. تقدم خدمات إلكترونية متقدمة وتنظم فعاليات ثقافية ومحاضرات دورية.
+        </p>
+      </div>
+      <div class="image-box">
+        <img src="img/log.jpg" alt="صورة المكتبة">
+      </div>
+    </div>
+  </section>
+
+  <section id="books">
+    <h2>الكتب الأكثر استعارة</h2>
+  </section>
+
+  <section id="team">
+    <h2>فريق العمل بالمكتبة</h2>
+  </section>
+
+  <section id="plan">
+    <h2>خطة العمل</h2>
+  </section>
+
+  <section id="contact">
+    <h2>اتصل بنا - رأيك يهمنا</h2>
+  </section>
+
+</body>
+</html>
