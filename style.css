@@ -204,18 +204,3 @@ h1, h2 {
   font-size: 14px;
   background-color: #fdfaf5;
 }
-
-button[type="submit"] {
-  background-color: #a67b5b;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button[type="submit"]:hover {
-  background-color: #8b5e3c;
-}

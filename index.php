@@ -16,7 +16,7 @@
       <li><a href="#d2">الكتب</a></li>
       <li><a href="#d1">حول</a></li>
       <li><a href="#">الرئيسية</a></li>
-      <li style="float:right;"><a href="#">تسجيل الدخول</a></li>
+      <li style="float:right;"><a href="login.php">تسجيل الدخول</a></li>
     </ul>
   </div>
 
@@ -85,7 +85,7 @@
       </div>
     </div>
   </div>
-  <!-- خطة العمل -->
+
  <!-- خطة العمل -->
 <div id="d4" class="section bg-dark-brown">
   <h2>خطة العمل</h2>
@@ -107,33 +107,12 @@
 
   </div>
 </div>
-
-<!-- اتصل بنا -->
-<div id="d5" class="section bg-earthy">
-  <h2>اتصل بنا - رأيك يهمنا</h2>
-  <div class="contact-container">
-    <form class="contact-form">
-      <div class="form-group">
-        <label for="name">الاسم</label>
-        <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا">
-      </div>
-
-      <div class="form-group">
-        <label for="address">العنوان</label>
-        <input type="text" id="address" name="address" placeholder="اكتب عنوانك هنا">
-      </div>
-
-      <div class="form-group">
-        <label for="email">الإيميل</label>
-        <input type="email" id="email" name="email" placeholder="example@email.com">
-      </div>
-
-      <div class="form-group">
-        <label for="message">الرسالة</label>
-        <textarea id="message" name="message" rows="4" placeholder="اكتب رسالتك هنا..."></textarea>
-      </div>
-
-      <button type="submit">ارسال</button>
-    </form>
+ <!-- اتصل بنا -->
+  <div id="d5" class="section" style="background: linear-gradient(to bottom, #6f4e37, #4b3621);">
+    <h2>اتصل بنا - رأيك يهمنا</h2>
+    <div class="text-box" style="margin: auto; text-align: center;">
+      <p>للتواصل معنا، يرجى إرسال رسالة عبر البريد الإلكتروني أو زيارة مقر المكتبة.</p>
+    </div>
   </div>
+
 </div>
